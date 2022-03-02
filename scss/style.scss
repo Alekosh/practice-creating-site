@@ -17,8 +17,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: inherit;
     font-size: inherit;
 }
-h1{font-size: 60px; color: white;}
-h2{font-size: 32px;}
+h1{font-size: 84px; color: white;}
+h2{font-size: 60px;}
 h3{font-size: 18px;}
 // h4{font-size: ;}
 // h5{font-size: ;}
@@ -98,7 +98,7 @@ main {
 	display: flex;
 	justify-content: space-evenly;
 
-	h1 {
+	h2 {
 		color: #EB6224;
 	}
 
@@ -126,7 +126,55 @@ main {
 	margin: 54px 0 99px 0;
 }
 
-article h1{
+article h2{
 	color: #E47900;
 	text-align: center;
+}
+
+section {
+	background-image: url(/img/Group.png);
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: cover;
+
+	h2 {
+		color: #00C5F2;
+	}
+
+	.section__text h2, p{
+		color: #FFFFFF;
+
+	}
+	
+}
+
+.section__text h2{
+	margin: 190px 0 20px 0;
+	font-weight: bold;
+}
+
+// .cards {
+// 	display: flex;
+// }
+.card__item {
+	// display: flex;
+	flex-wrap: wrap;
+	border: 1px dashed #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 20px;
+	width: 350px;
+	padding: 20px;
+
+	p{line-height: 64px;}
+	p:first-child {
+		font-size: 84px;
+		margin-right: 24px;
+	}
+
+	P:nth-child(2){
+		font-size: 60px;
+		text-decoration-line: line-through;
+		opacity: 0.6;
+		
+	}
 }
